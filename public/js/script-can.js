@@ -1,0 +1,22 @@
+$('input[name=seleccionaMascotas]').click(function(){
+    $('#formularioNombre').submit();
+});
+$('input[name=edad]').click(function(){
+    $('#form-edad').submit();
+});
+$('input[name=edadcat]').click(function(){
+    $('#form-edad-dos').submit();
+});
+$('input[name=tamañoMascota]').click(function(){
+    $('#form-tamaño').submit();
+});
+$('input[name=tamañoGato]').click(function(){
+    $('#form-tamaño-dos').submit();
+});
+$('input[type=radio]').click(function(){
+    $('#form-comida').submit();
+});
+
+$('input[name=comidaGatos]').click(function(){
+    $('#form-comida-gatos').submit();
+});

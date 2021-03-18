@@ -1,0 +1,297 @@
+@font-face{
+    font-family: Noteworthy;
+    src:url('fuente/Noteworthy-Bold.ttf');
+}
+@font-face{
+    font-family: calibri;
+    src:url('fuente/Calibri-Bold.TTF');
+}
+.inputText{
+    width:100%;
+    border:1px solid #33811c;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 13px;
+}
+.inputText:focus{
+    outline: none;
+}
+.boton{
+    display:flex;
+    justify-content: space-around;
+}
+.bannerInicio{
+    width:100%;
+    height: auto;
+}
+.bannerCan{
+    width:100%;
+    display: none;
+}
+.bannerCat{
+    width: 100%;
+    display: none;
+}
+.imgPerro{
+    width: 150px;
+}
+.imgGato{
+    width: 105px;
+    padding-top: 7px;
+}
+.radio{
+    display:none;
+}
+#razasPequeñas{
+    display:none;
+    width:100%;
+    text-align:center;
+}
+.razasmedianas{
+    display: none;
+    width:100%;
+    text-align:center;
+}
+.label{
+    width: 100%;
+}
+.section{
+    height: 74vh;
+    background-image: url("../img/mascotas/BACKGROUND.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.secti{
+    background-image: url("../img/mascotas/BACKGROUND.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.comida{
+    min-height:60vh;
+    background-image: url("../img/mascotas/BACKGROUND.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fondoGatos{
+    height: 74vh;
+    background-image: url("../img/mascotas/background-gatos.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fondoGat{
+    background-image: url("../img/mascotas/background-gatos.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media(max-width:480px){
+    .section, .fondoGatos, .secti, .fondoGat{
+        background-size: contain;
+    }
+}
+h3, .label{
+    font-family: 'calibri';
+    font-weight: bold;
+    color:#173f0b;
+    font-size:30px
+}
+.parrafoEdad{
+    font-family:'Noteworthy';
+    color:#173f0b;
+    font-weight: 700;
+    font-size: 18px;
+}
+.parrafoEdadGato{
+    font-family:'Noteworthy';
+    color:#641d69;
+    font-weight: 700;
+    font-size: 18px;
+}
+.violeta{
+    font-family: 'calibri';
+    font-weight: bold;
+    color:#641d69;
+}
+.pesosComidaGatos{
+    font-family: 'calibri';
+    font-weight: bold;
+    color:#641d69;
+    font-size: 30px;
+}
+.pesosComidaPerros{
+    font-family: 'calibri';
+    font-weight: bold;
+    font-size: 30px;
+    color:#173f0b;
+}
+/* estilos primera de vista */
+.imgNaranjaDerecha{
+    width: 100px;
+    float: right;
+    transform: translateY(-8em);
+}
+.fondo-fucsia{
+    background-color: #d60036;
+    box-shadow: -1px 2px 5px -2px;
+    text-align: center;
+    padding-top: 3%;
+}
+.parrafoBlancoResultadoPerro{
+    font-family: 'calibri';
+    color:white;
+    font-weight: bold;
+}
+/* fin estilos de primera vista */
+.imgGatoDerecha{
+    width: 100px;
+    float: right;
+    transform: translateY(-8.3em);
+}
+.form-group{
+    width: 100%;
+    text-align: center;
+}
+.svgCan{
+    width:165px;
+}
+.input-verde{
+    background-color: #173f0b;
+    border:none;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    font-family: 'calibri';
+    text-align: center;
+    padding: 0 14px;
+    width: 150px;
+}
+.input-violeta{
+    background-color: #641d69;
+    border:none;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    font-family: 'calibri';
+    text-align: center;
+    padding: 0 14px;
+    width: 150px;
+}
+option{
+    background: #b9d30e;
+    border-radius: 0 10px !important;
+    color:#173f0b;
+}
+.input-violeta::-webkit-input-placeholder {
+    color:white;
+    font-family: 'calibri';
+    font-weight: bold;
+} 
+.input-verde::-webkit-input-placeholder {
+        color:white;
+        font-family: 'calibri';
+        font-weight: bold;
+    } 
+    .calcular-gatos{
+        background:#118db0;
+        border:none;
+        font-family: 'calibri';
+        border-radius: 20px;
+        color: white;
+        height: 27px;
+        font-size: 18px;
+        width: 150px;
+    }
+    .calcular{
+        background:#ef6a01;
+        border:none;
+        font-family: 'calibri';
+        border-radius: 20px;
+        color: white;
+        height: 27px;
+        font-size: 18px;
+        width: 150px;
+    }
+    input:focus{
+        outline:none
+    }
+    select:focus{
+        outline:none
+    }
+    .requerimiento{
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+    .fondovioleta{
+        background: #641d69;
+        padding: 3% 5%;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        height: 40px;
+    }
+    .fondoVerde{
+        background: #173f0b;
+        padding: 3% 5%;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        height: 40px;
+    }
+    .fondoVioletaDos{
+        background: #641d69;
+        border-radius: 20px;
+        color:white;
+    }
+    .fondoVerdeDos{
+        background: #173f0b;
+        border-radius: 20px;
+        color:white;
+    }
+/*--------------- estilos footer --------------------*/
+.footer-mascotas{
+    background-color: #b9d30e;
+    height: auto;
+    padding: 6% 0px;
+}
+.redes{
+    color:white;
+    font-size: 33px;
+}
+.div-redes{
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+}
+.a-telefono{
+    color: white;
+    text-decoration: none;
+    font-family: 'calibri-bol', sans-serif;
+    font-size: 24px;
+}
+.p-footer{
+    font-family: 'calibri-bold', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.borde{
+    border-right: 2px solid white;
+}
+body{
+    height: 100vh;
+}
+/* svg imagenes */
+.radioPerro{
+    width: 110px;
+    padding-top: 16px;
+}
+.labelGatos{
+    width:150px;
+}
+.labelGatosAdulto{
+    width:100px;
+}
