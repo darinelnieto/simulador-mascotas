@@ -1,0 +1,69 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: calibri;
+}
+
+.Header {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 100px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 15vh;
+    background-color: #B9D30E;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    color: white;
+    margin-top: 60px;
+}
+
+.logoFoot {
+    margin: 0px 0 0 20px;
+}
+
+.contFooter1 {
+    float: left;
+    padding: 30px 0 0 120px;
+}
+
+.contFooter2 {
+    float: right;
+    padding: 30px 120px 0 0;
+}
+
+.linea {
+    font-size: 26px;
+    margin: 0px;
+}
+
+.numLinea {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.siguenos {
+    font-size: 26px;
+    margin: 0px;
+}
+
+.Contbanners {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1600px) {
+    footer {
+        height: 20vh;
+    }
+}
